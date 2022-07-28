@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <link rel="stylesheet" href="inicio.css">
+    
+    <link rel="stylesheet" href="css/inicio.css">
     <title>Conversor de Bases</title>
 
 </head>
+
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
 <body>
     <div id="pesquisa">
-        <h1>PESQUISA DE PRODUTOS</h1>
+        <h1>CONVERSOR DE BASES</h1>
         <form id="login-container">
-            <label for="produtolabel">Produto</label>
-            <input type="text" list="browsers" id="produto" placeholder="Digite o nome do produto" required autocomplete="off">
-            <label for="quantLabel">Quantidade</label>
-            <input type="text" id="quant" placeholder="Digite a quantidade (em KG)" required autocomplete="off">
-            <label for="datalabel">Data</label>
-            <input type="date" id="data" required>
-            <input type="submit" id ="btn-submit" value="Enviar">
+            <label for="produtolabel">Número Original</label>
+            <input type="text" list="browsers" id ="num_original" placeholder="Digite o número orginal" required autocomplete="off">
+            <label for="quantLabel">Base Original</label>
+            <input type="number" id="base_original" placeholder="Digite a base original do seu número" required autocomplete="off">
+            <label for="datalabel">Base Destino</label>
+            <input type="number" id="base_final" placeholder="Digite a base destino do seu número" required autocomplete="off">
+            <input type="submit" id="" value="Resultado">
         </form>
     </div>
 </body>

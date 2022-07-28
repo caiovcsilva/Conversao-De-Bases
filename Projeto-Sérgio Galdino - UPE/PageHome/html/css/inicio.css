@@ -15,6 +15,11 @@ textarea:focus, input:focus {
 
 }
 
+body{
+    background-image: url(https://images6.alphacoders.com/648/648552.jpg);
+    background-size: cover;
+}
+
 
 /*container login*/
 
@@ -24,7 +29,18 @@ textarea:focus, input:focus {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
-    margin-top: 10vh;
+    margin-top: 6vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    background-color: #F0FFF0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5vh;
     border-radius: 10px;
     text-align: center;
 }
@@ -57,7 +73,7 @@ input {
 }
 
 input:focus {
-    border-bottom: 2px solid lime;
+    border-bottom: 2px solid blue;
 }
 
 #forgot-pass {
@@ -73,12 +89,12 @@ input[type="submit"]{
     height: 40px;
     border-radius: 20px;
     margin-top: 30px;
-    color: #323232;
-    background-color: lime;
+    color: #F0FFF0;
+    background-color: blue;
     cursor: pointer;
 }
 
 input[type="submit"]:hover{
-    background-color: burlywood;
+    background-color: black;
     transition: .5s;
 }
