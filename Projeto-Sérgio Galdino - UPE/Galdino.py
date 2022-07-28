@@ -43,6 +43,13 @@ def dec2any(dec,base_final):
 def any2any(num_original,base_original,base_final):
     num_dec = any2dec(num_original,base_original)
     num_final = dec2any(num_dec,base_final)
-    return num_final
+    print(num_final)
 
-    
+
+while True:
+    num_original = int(input("digite o valor do número: "))
+    base_original = int(input("Digite a base original: "))
+    base_final = int(input("Digite a base destino: "))
+    any2any(num_original,base_original,base_final)
+    break
+input()
